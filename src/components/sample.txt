@@ -1,0 +1,48 @@
+import React, { useEffect } from "react";
+import Nav from "./Nav";
+import "./about.css";
+import pic from "../imgs/pr_pic1.jpg";
+const About = ({ logo, setLogo }) => {
+  return (
+    <div className="about">
+      <Nav />
+      <div
+        className="row about-container"
+        style={{
+          width: "70%",
+          paddingTop: "90px",
+          display: "flex",
+          //   justifyContent: "center",
+          marginLeft: "15%",
+        }}
+      >
+        <div className="col-10 col-md-5">
+          <div className="img-container">
+            <img src={pic} className="avatar" alt="" />
+          </div>
+        </div>
+        <div className="col-10 col-md-5" style={{ background: "transparent" }}>
+          <div className="text-container">
+            <h4>About me</h4>
+            <p>
+              Hey folks! This is Ajay Sankapal, a 24 years old young Web
+              developer and a little bit of photographer living in Madhya
+              Pradesh, India. I am an Electronics and Communication Engineering
+              undergrad from University Institute Of Technology RGPV Bhopal
+              Madhya Pradesh. I have around 1.5 years of hands-on experience in
+              efficiently coding websites and applications using modern HTML,
+              CSS and JavaScript in React Library. Have a look at this page or
+              just connect with me on LinkedIn. I am always excited to do work
+              related to Web Development so just ping me or send your message
+              from Contact page. Website: ............ Phone: +91-9340914406
+              Email: ajaysankapal638@gmail.com Location: Bhopal Madhya Pradesh,
+              India.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default About;

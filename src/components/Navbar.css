@@ -1,0 +1,19 @@
+ a:hover{
+color: #f59b42 !important;
+
+}
+.active{
+    background-color: red;
+}
+.nav2{
+    background: #040404;
+    position: fixed;
+    z-index: 999;
+}
+a{
+    text-decoration: none !important;
+    list-style: none !important;
+}
+.brand-logo{
+    font-size: 1.2rem !important;
+}

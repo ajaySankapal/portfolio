@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+.expp{
+       background-image:url('../imgs/bg-3.jpg') !important;
+        /* background: grey; */
+        /* height:100vh; */
+        position: static;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        color:#fff;
+}
+.exp-container{
+    background: rgba(0, 0, 0, 0.9);
+    padding: 60px;
+    /* width:80%; */
+}
+
+.vertical {
+    border-left: 2px solid #fff;
+    height: 90%    ;
+    position: absolute;
+    margin-left: 8%;
+}
+.arr-logo{
+    position:absolute;
+    font-size: 1.6rem;
+    margin-top: 5%;
+    margin-left: 7.3%;
+}
+.arr2-logo{
+    position:absolute;
+    font-size: 1.6rem;
+    margin-top: 7.8%;
+    margin-left: 7.3%;
+}
+.left-content{
+        /* position: absolute; */
+        top: 12px;
+        margin: 0;
+        padding: 8px 16px;
+        color: #fff;
+        box-shadow: 0 0 0 3px rgb(93 104 128 / 30%);
+        border-radius: 18px;
+        /* width:inherit; */
+       display: inline-block;
+}
+.exp-text{
+    font-size:1.3rem;
+    font-family: 'Poppins',
+    sans-serif;
+    line-height: 2rem;
+}
+/* trbl */
+.exp-head{
+    padding:20px 0 20px 0;
+}

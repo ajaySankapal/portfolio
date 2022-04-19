@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+.about{
+        background-image:url('../imgs/bg-3.jpg') !important;
+        /* background: grey; */
+        /* height:100vh; */
+        position: static;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        color:#fff;
+}
+.about-container{
+    background: #040404;
+    
+}
+.avatar{
+    width:100%
+}
+.about-me-container{
+        background: rgba(0, 0, 0, 0.9);
+        padding: 30px;
+}
+.js-logo {
+    background-color:yellow;
+    color:black;
+    padding-top: 10px;
+    font-size: 4rem;
+}
+.react-logo{
+    color:skyblue;
+    font-size: 4rem;
+}
+.html-logo{
+    font-size: 4rem;
+    color:	#e34c26;
+}
+.css-logo{
+    font-size: 4rem;
+    color:#87CEFA;
+}
+.git-logo{
+    font-size: 4rem;
+    color:#F1502F;
+}
+.skill-head-t{
+    display:block;
+     padding: 30px;
+}
+.git-hub-char > img{
+    width:100%;
+}
+
+@media screen and (max-width:768px) {
+    .about {
+        background: none;
+    }
+}
+.abt-text{
+    font-size: 1.3rem;
+    line-height: 2rem;
+    font-family: 'Poppins',
+    sans-serif;
+}
+.links-cont > span{
+    font-size:1.2rem;
+}
+.skills-container{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.social-container{
+    margin-left: 10%;
+}
+.social-container span {
+    width: 50px;
+    height: 50px;
+    padding: 0.25rem;
+    display: inline-block;
+    border-radius: 50px;
+    text-align: center;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    margin-right: auto;
+    margin-bottom: 10px !important;
+    /* color: #fff; */
+    border: 1px solid black;
+    cursor: pointer;
+    background: ''
+}
+
+.social-links {
+    display: flex;
+}
+
+.social-links a {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    line-height: 1;
+    margin-right: 8px;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+}
